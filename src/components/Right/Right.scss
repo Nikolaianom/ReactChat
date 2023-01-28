@@ -1,0 +1,139 @@
+.right {
+    background: url('../../assets/images/Right\ bar.png') ;
+    border-radius: 30px;
+    width: 400px;
+    
+
+    &__user {
+        background: #323232;
+        border-radius: 10px 10px 0px 0px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 31px 20px;
+
+        
+
+        div {
+            margin-left: 10px;
+            .right__user-name{
+                font-size: 18px;
+                line-height: 14px;
+                color: #FFFFFF;
+                font-family: 'Roboto-medium';
+                margin-bottom: 2px;
+            }
+            span{
+                font-size: 14px;
+                line-height: 18px;
+                color: #FFFFFF;
+                font-family: 'Roboto-Light';
+            }
+        }
+}
+        &__message {
+            min-height: 632px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+            
+            &-user {
+                background: #D0DCFF;
+                border-radius: 15px 15px 0px 15px;
+                font-size: 16px;
+                line-height: 19px;
+                color: #000000;
+                font-family: 'Roboto-regular';
+                padding: 5px 10px 5px 5px;
+                position: relative;
+                max-width: 302px;
+                margin-left: 65px;
+                margin-top: 10px;
+                word-break: break-all;
+
+                span {
+                    position: absolute;
+                left: -45px;
+                top: 6px;
+                }
+            }
+
+            &-oponent {
+                background: #C4BFFF;
+            border-radius: 15px 15px 15px 0px;  
+            font-size: 16px;
+            line-height: 19px;
+            color: #000000;
+            font-family: 'Roboto-Regular';
+            position: relative;
+            max-width: 302px;
+            word-break: break-all;
+            padding: 5px 5px 5px 10px;
+            margin-left: 10px;
+            margin-top: 11px;
+
+                span {
+                    position: absolute;
+                right: -45px;
+                top: 6px;
+                }
+            }
+            .right-div{
+                border: solid 5px #D0DCFF;;
+                border-radius: 15px 15px 0px 15px;
+                max-width: 302px;
+                font-size: 16px;
+                line-height: 19px;
+                color: #000000;
+                font-family: 'Roboto-Regular';
+                position: relative;
+                max-width: 302px;
+                word-break: break-all;
+                background: #D0DCFF;   
+                margin-left: 67px;
+                margin-top: 11px;
+                position: relative;
+            .right-img{
+                width: 100%;
+                border-radius: 10px;
+            }
+            .right-comment{
+                padding: 5px 10px 5px 5px;
+                background: #D0DCFF;
+            }
+            span{
+                position: absolute;
+                top: 85px;
+                left    : -53px;
+            }
+        }
+        }
+        &__send {
+            background: #323232;
+        border-radius: 0px 0px 10px 10px;
+        padding: 22px 20px;
+
+        form{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            input {
+                outline: none;
+                background: none;
+                border: none;
+                font-family: 'Roboto-regular';
+                font-size: 14px;
+                line-height: 16px;          
+                color: #FFFFFF;
+            }
+
+            button {
+                outline: none;
+                background: none;
+                border: none;
+                cursor: pointer;
+            }
+        }
+        }
+}
