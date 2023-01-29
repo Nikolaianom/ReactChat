@@ -1,5 +1,6 @@
 {
   "name": "chat",
+  "homepage": "https://nikolaianom.github.io/ReactChat",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
